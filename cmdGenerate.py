@@ -1,6 +1,6 @@
-import sys
 import random
 
+tests = int(input('Enter how many tests you want to perform : '))
 cmd_path = 'cmd/'
 log_path = 'log/'
 
@@ -31,8 +31,9 @@ vectors = { 'A': ['A', node_opA],
             }
 
 # filename_cmd = cmd_path + 'test.txt'
-filename_cmd = cmd_path + 'test.cmd'
-filename_log = log_path + 'test.cmd'
+temp_name = input('Enter name of the cmd file: ')
+filename_cmd = cmd_path + temp_name + '.cmd'
+filename_log = log_path + temp_name + '.txt'
 
 file = open(filename_cmd, 'w')
 
@@ -66,9 +67,10 @@ for vector_name in vectors:
 file.write('\n')
 
 #running simulations
-instruction = random.randint(0, 2**10)
-file.write(f'setvector in {instruction:010b}\n')
-file.write('s\n')
+for i in range(tests):
+    instruction = random.randint(0, 2**10)
+    file.write(f'setvector in {instruction:010b}\n')
+    file.write('s\n')
 file.write('logfile\n')
 file.write('exit')
 file.close
