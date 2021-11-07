@@ -1,4 +1,5 @@
 import random
+import os
 
 tests = int(input('Enter how many tests you want to perform : '))
 cmd_path = 'cmd/'
@@ -67,3 +68,5 @@ for i in range(tests):
 file.write('logfile\n')
 file.write('exit')
 file.close
+
+os.system(f'irsim scmos100.prm ALU.sim -{filename_cmd}')
