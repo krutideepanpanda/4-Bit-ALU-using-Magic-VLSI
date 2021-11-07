@@ -64,5 +64,5 @@ for i in range(0, len(lines), 2):
     testcases+=1
     
 accuracy = (correct*100.0)/testcases
-print(f"Accuracy of simulation: {accuracy}\n")
+print(f"Accuracy of simulation: {accuracy}%\n")
 file.close()
