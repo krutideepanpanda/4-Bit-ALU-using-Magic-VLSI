@@ -1,7 +1,3 @@
-def unsign2sign(num):
-    if num>127:
-        num-=256
-    return num
 
 def checkAND(opA, opB, aluout):
     expected = opA & opB
@@ -12,7 +8,7 @@ def checkAND(opA, opB, aluout):
 def checkADD(opA, opB, aluout, cout):
     expected = opA + opB
     # cout for overflow
-    if aluout + 256*cout == expected:
+    if aluout + 16*cout == expected:
         return True
     return False
 

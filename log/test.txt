@@ -1,20 +1,200 @@
-| op=11 B=1010 A=0111 C_out=1 out=XXXX in=1101111010 
+| op=11 B=1010 A=0101 C_out=0 out=XXXX in=1101011010 
 | time = 50.000ns
-| op=01 B=1111 A=1110 C_out=1 out=1111 in=0111101111 
+| op=01 B=0011 A=0111 C_out=0 out=0011 in=0101110011 
 | time = 100.000ns
-| op=01 B=1010 A=0101 C_out=0 out=0000 in=0101011010 
+| op=01 B=0001 A=1100 C_out=0 out=0000 in=0111000001 
 | time = 150.000ns
-| op=10 B=1100 A=0011 C_out=0 out=1111 in=1000111100 
+| op=10 B=1100 A=1001 C_out=1 out=0101 in=1010011100 
 | time = 200.000ns
-| op=10 B=1010 A=0010 C_out=0 out=1100 in=1000101010 
+| op=10 B=0110 A=1010 C_out=1 out=0000 in=1010100110 
 | time = 250.000ns
-| op=11 B=1101 A=1010 C_out=1 out=XXXX in=1110101101 
+| op=11 B=0110 A=0010 C_out=0 out=XXXX in=1100100110 
 | time = 300.000ns
-| op=00 B=1111 A=0110 C_out=1 out=1111 in=0001101111 
+| op=01 B=0101 A=0010 C_out=0 out=0000 in=0100100101 
 | time = 350.000ns
-| op=00 B=1100 A=0110 C_out=1 out=1110 in=0001101100 
+| op=01 B=1101 A=0100 C_out=1 out=0100 in=0101001101 
 | time = 400.000ns
-| op=01 B=0001 A=1001 C_out=0 out=0001 in=0110010001 
+| op=01 B=1001 A=1010 C_out=1 out=1000 in=0110101001 
 | time = 450.000ns
-| op=01 B=0011 A=1100 C_out=0 out=0001 in=0111000011 
+| op=01 B=0110 A=1111 C_out=1 out=0110 in=0111110110 
 | time = 500.000ns
+| op=01 B=0101 A=0010 C_out=0 out=0000 in=0100100101 
+| time = 550.000ns
+| op=01 B=1100 A=1100 C_out=1 out=1100 in=0111001100 
+| time = 600.000ns
+| op=00 B=0100 A=0111 C_out=0 out=0111 in=0001110100 
+| time = 650.000ns
+| op=00 B=1010 A=0011 C_out=0 out=1011 in=0000111010 
+| time = 700.000ns
+| op=00 B=1101 A=1000 C_out=1 out=1101 in=0010001101 
+| time = 750.000ns
+| op=00 B=0111 A=0000 C_out=0 out=0111 in=0000000111 
+| time = 800.000ns
+| op=11 B=1111 A=0001 C_out=1 out=XXXX in=1100011111 
+| time = 850.000ns
+| op=10 B=0001 A=1001 C_out=0 out=1010 in=1010010001 
+| time = 900.000ns
+| op=00 B=1001 A=1111 C_out=1 out=1111 in=0011111001 
+| time = 950.000ns
+| op=00 B=1110 A=0010 C_out=1 out=1110 in=0000101110 
+| time = 1000.000ns
+| op=01 B=0000 A=0110 C_out=0 out=0000 in=0101100000 
+| time = 1050.000ns
+| op=01 B=1101 A=0010 C_out=0 out=0000 in=0100101101 
+| time = 1100.000ns
+| op=00 B=0011 A=0101 C_out=0 out=0111 in=0001010011 
+| time = 1150.000ns
+| op=11 B=1001 A=0001 C_out=0 out=XXXX in=1100011001 
+| time = 1200.000ns
+| op=10 B=1011 A=1111 C_out=1 out=1010 in=1011111011 
+| time = 1250.000ns
+| op=01 B=1000 A=0101 C_out=0 out=0000 in=0101011000 
+| time = 1300.000ns
+| op=00 B=0010 A=1100 C_out=0 out=1110 in=0011000010 
+| time = 1350.000ns
+| op=01 B=1101 A=0010 C_out=0 out=0000 in=0100101101 
+| time = 1400.000ns
+| op=11 B=0101 A=1000 C_out=0 out=XXXX in=1110000101 
+| time = 1450.000ns
+| op=00 B=0111 A=1100 C_out=1 out=1111 in=0011000111 
+| time = 1500.000ns
+| op=11 B=0010 A=0101 C_out=0 out=XXXX in=1101010010 
+| time = 1550.000ns
+| op=10 B=0001 A=0100 C_out=0 out=0101 in=1001000001 
+| time = 1600.000ns
+| op=10 B=0101 A=1001 C_out=0 out=1110 in=1010010101 
+| time = 1650.000ns
+| op=00 B=0001 A=0000 C_out=0 out=0001 in=0000000001 
+| time = 1700.000ns
+| op=11 B=1110 A=0000 C_out=0 out=XXXX in=1100001110 
+| time = 1750.000ns
+| op=11 B=1100 A=0110 C_out=1 out=XXXX in=1101101100 
+| time = 1800.000ns
+| op=00 B=1111 A=0100 C_out=1 out=1111 in=0001001111 
+| time = 1850.000ns
+| op=10 B=0010 A=0000 C_out=0 out=0010 in=1000000010 
+| time = 1900.000ns
+| op=10 B=0111 A=1000 C_out=0 out=1111 in=1010000111 
+| time = 1950.000ns
+| op=00 B=0100 A=1000 C_out=0 out=1100 in=0010000100 
+| time = 2000.000ns
+| op=01 B=0110 A=0111 C_out=0 out=0110 in=0101110110 
+| time = 2050.000ns
+| op=01 B=0100 A=1110 C_out=1 out=0100 in=0111100100 
+| time = 2100.000ns
+| op=11 B=1110 A=1100 C_out=1 out=XXXX in=1111001110 
+| time = 2150.000ns
+| op=11 B=0101 A=1001 C_out=0 out=XXXX in=1110010101 
+| time = 2200.000ns
+| op=00 B=0101 A=1110 C_out=1 out=1111 in=0011100101 
+| time = 2250.000ns
+| op=11 B=1010 A=1100 C_out=1 out=XXXX in=1111001010 
+| time = 2300.000ns
+| op=01 B=1001 A=0000 C_out=0 out=0000 in=0100001001 
+| time = 2350.000ns
+| op=10 B=1100 A=0101 C_out=1 out=0001 in=1001011100 
+| time = 2400.000ns
+| op=00 B=0100 A=0010 C_out=0 out=0110 in=0000100100 
+| time = 2450.000ns
+| op=00 B=0101 A=1101 C_out=1 out=1101 in=0011010101 
+| time = 2500.000ns
+| op=01 B=1001 A=1010 C_out=1 out=1000 in=0110101001 
+| time = 2550.000ns
+| op=10 B=0101 A=0101 C_out=0 out=1010 in=1001010101 
+| time = 2600.000ns
+| op=11 B=1101 A=1001 C_out=1 out=XXXX in=1110011101 
+| time = 2650.000ns
+| op=10 B=1101 A=0101 C_out=1 out=0010 in=1001011101 
+| time = 2700.000ns
+| op=00 B=1111 A=1101 C_out=1 out=1111 in=0011011111 
+| time = 2750.000ns
+| op=11 B=1100 A=0000 C_out=0 out=XXXX in=1100001100 
+| time = 2800.000ns
+| op=10 B=0011 A=1111 C_out=1 out=0010 in=1011110011 
+| time = 2850.000ns
+| op=11 B=1110 A=1011 C_out=1 out=XXXX in=1110111110 
+| time = 2900.000ns
+| op=00 B=0010 A=1111 C_out=1 out=1111 in=0011110010 
+| time = 2950.000ns
+| op=11 B=0001 A=1011 C_out=0 out=XXXX in=1110110001 
+| time = 3000.000ns
+| op=11 B=0110 A=1101 C_out=1 out=XXXX in=1111010110 
+| time = 3050.000ns
+| op=01 B=0100 A=0110 C_out=0 out=0100 in=0101100100 
+| time = 3100.000ns
+| op=00 B=1111 A=0011 C_out=1 out=1111 in=0000111111 
+| time = 3150.000ns
+| op=00 B=1101 A=0101 C_out=1 out=1101 in=0001011101 
+| time = 3200.000ns
+| op=10 B=0010 A=0001 C_out=0 out=0011 in=1000010010 
+| time = 3250.000ns
+| op=11 B=0100 A=0010 C_out=0 out=XXXX in=1100100100 
+| time = 3300.000ns
+| op=11 B=1000 A=0111 C_out=0 out=XXXX in=1101111000 
+| time = 3350.000ns
+| op=10 B=0000 A=0011 C_out=0 out=0011 in=1000110000 
+| time = 3400.000ns
+| op=00 B=1101 A=1101 C_out=1 out=1101 in=0011011101 
+| time = 3450.000ns
+| op=11 B=1000 A=1001 C_out=1 out=XXXX in=1110011000 
+| time = 3500.000ns
+| op=01 B=0010 A=0111 C_out=0 out=0010 in=0101110010 
+| time = 3550.000ns
+| op=11 B=1100 A=0011 C_out=0 out=XXXX in=1100111100 
+| time = 3600.000ns
+| op=00 B=1110 A=1011 C_out=1 out=1111 in=0010111110 
+| time = 3650.000ns
+| op=11 B=0010 A=0110 C_out=0 out=XXXX in=1101100010 
+| time = 3700.000ns
+| op=11 B=1111 A=1011 C_out=1 out=XXXX in=1110111111 
+| time = 3750.000ns
+| op=00 B=1110 A=0011 C_out=1 out=1111 in=0000111110 
+| time = 3800.000ns
+| op=01 B=0111 A=1100 C_out=1 out=0100 in=0111000111 
+| time = 3850.000ns
+| op=11 B=1101 A=0111 C_out=1 out=XXXX in=1101111101 
+| time = 3900.000ns
+| op=11 B=1010 A=0101 C_out=0 out=XXXX in=1101011010 
+| time = 3950.000ns
+| op=10 B=1001 A=1011 C_out=1 out=0100 in=1010111001 
+| time = 4000.000ns
+| op=11 B=1001 A=1010 C_out=1 out=XXXX in=1110101001 
+| time = 4050.000ns
+| op=10 B=0010 A=0010 C_out=0 out=0100 in=1000100010 
+| time = 4100.000ns
+| op=01 B=0001 A=0011 C_out=0 out=0001 in=0100110001 
+| time = 4150.000ns
+| op=10 B=1000 A=0110 C_out=0 out=1110 in=1001101000 
+| time = 4200.000ns
+| op=01 B=1011 A=1110 C_out=1 out=1010 in=0111101011 
+| time = 4250.000ns
+| op=01 B=1110 A=0001 C_out=0 out=0000 in=0100011110 
+| time = 4300.000ns
+| op=01 B=1100 A=1001 C_out=1 out=1000 in=0110011100 
+| time = 4350.000ns
+| op=10 B=1011 A=0101 C_out=1 out=0000 in=1001011011 
+| time = 4400.000ns
+| op=01 B=0110 A=0101 C_out=0 out=0100 in=0101010110 
+| time = 4450.000ns
+| op=10 B=0110 A=1101 C_out=1 out=0011 in=1011010110 
+| time = 4500.000ns
+| op=10 B=1001 A=1100 C_out=1 out=0101 in=1011001001 
+| time = 4550.000ns
+| op=11 B=0100 A=1000 C_out=0 out=XXXX in=1110000100 
+| time = 4600.000ns
+| op=11 B=1101 A=0111 C_out=1 out=XXXX in=1101111101 
+| time = 4650.000ns
+| op=01 B=0000 A=1000 C_out=0 out=0000 in=0110000000 
+| time = 4700.000ns
+| op=01 B=1011 A=1111 C_out=1 out=1011 in=0111111011 
+| time = 4750.000ns
+| op=11 B=0001 A=1010 C_out=0 out=XXXX in=1110100001 
+| time = 4800.000ns
+| op=10 B=1101 A=1000 C_out=1 out=0101 in=1010001101 
+| time = 4850.000ns
+| op=10 B=0100 A=1000 C_out=0 out=1100 in=1010000100 
+| time = 4900.000ns
+| op=11 B=1010 A=1000 C_out=1 out=XXXX in=1110001010 
+| time = 4950.000ns
+| op=01 B=0101 A=1111 C_out=1 out=0101 in=0111110101 
+| time = 5000.000ns

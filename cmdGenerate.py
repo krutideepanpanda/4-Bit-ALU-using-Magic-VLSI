@@ -33,7 +33,7 @@ file.write(f'logfile {filename_log}\n')
 file.write('stepsize 50\n')
 file.write(f'h {high} \n')
 file.write(f'l {low} \n')
-file.write(f'l cin0 \n')
+file.write(f'l cin \n')
 
 #generating vectors
 for vector_name in vectors:
