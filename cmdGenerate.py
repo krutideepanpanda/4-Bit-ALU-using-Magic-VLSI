@@ -7,15 +7,12 @@ log_path = 'log/'
 high = 'vdd'
 low = 'GND'
 
-node_opA = ['A3', 'A2', 'A1', 'A0']
-node_opB = ['B3', 'B2', 'B1', 'B0']
+node_opA = ['a3', 'a2', 'a1', 'a0']
+node_opB = ['b3', 'b2', 'b1', 'b0']
 node_sum = ['S3', 'S2', 'S1', 'S0']
-node_carry = 'C3'
-node_and = ['and3', 'and2', 'and1', 'and0']
-node_or = ['or3', 'or2', 'or1', 'or0']
-node_xor = ['xor3', 'xor2', 'xor1', 'xor0']
-node_out = ['out3', 'out2', 'out1', 'out0']
-node_op = ['op1', 'op0']
+node_carry = 'cout'
+node_out = ['aluout3', 'aluout2', 'aluout1', 'aluout0']
+node_op = ['s1', 's0']
 node_in = node_op + node_opA + node_opB
 
 vectors = { 'A': ['A', node_opA],
@@ -23,9 +20,6 @@ vectors = { 'A': ['A', node_opA],
             'Opcode': ['op', node_op],
             'Sum': ['sum', node_sum],
             'Carry out': ['C_out', node_carry],
-            'And': ['and', node_and],
-            'Or': ['or', node_or],
-            'Xor': ['xor', node_xor],
             'Out': ['out', node_out],
             'In' : ['in', node_in]
             }
