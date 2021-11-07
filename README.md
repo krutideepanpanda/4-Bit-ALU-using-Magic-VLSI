@@ -4,7 +4,6 @@ This is a simple ALU designed using the pharosc standard library. The ALU suppor
 
 - Addition
 - Bitwise AND
-- Bitwise XOR
 - Bitwise OR
 
 The ALU was extracted and converted to a **.sim** file using **Magic VLSI**. The generated **.sim** file was then simulated using the switch level simulator **IRSIM**.
