@@ -1,0 +1,20 @@
+| op=11 B=1010 A=0111 C_out=1 out=XXXX in=1101111010 
+| time = 50.000ns
+| op=01 B=1111 A=1110 C_out=1 out=1111 in=0111101111 
+| time = 100.000ns
+| op=01 B=1010 A=0101 C_out=0 out=0000 in=0101011010 
+| time = 150.000ns
+| op=10 B=1100 A=0011 C_out=0 out=1111 in=1000111100 
+| time = 200.000ns
+| op=10 B=1010 A=0010 C_out=0 out=1100 in=1000101010 
+| time = 250.000ns
+| op=11 B=1101 A=1010 C_out=1 out=XXXX in=1110101101 
+| time = 300.000ns
+| op=00 B=1111 A=0110 C_out=1 out=1111 in=0001101111 
+| time = 350.000ns
+| op=00 B=1100 A=0110 C_out=1 out=1110 in=0001101100 
+| time = 400.000ns
+| op=01 B=0001 A=1001 C_out=0 out=0001 in=0110010001 
+| time = 450.000ns
+| op=01 B=0011 A=1100 C_out=0 out=0001 in=0111000011 
+| time = 500.000ns

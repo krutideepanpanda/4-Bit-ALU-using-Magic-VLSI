@@ -4,12 +4,11 @@ tests = int(input('Enter how many tests you want to perform : '))
 cmd_path = 'cmd/'
 log_path = 'log/'
 
-high = 'vdd'
-low = 'GND'
+high = 'vdd!'
+low = 'vss!'
 
 node_opA = ['a3', 'a2', 'a1', 'a0']
 node_opB = ['b3', 'b2', 'b1', 'b0']
-node_sum = ['S3', 'S2', 'S1', 'S0']
 node_carry = 'cout'
 node_out = ['aluout3', 'aluout2', 'aluout1', 'aluout0']
 node_op = ['s1', 's0']
@@ -18,7 +17,6 @@ node_in = node_op + node_opA + node_opB
 vectors = { 'A': ['A', node_opA],
             'B': ['B', node_opB],
             'Opcode': ['op', node_op],
-            'Sum': ['sum', node_sum],
             'Carry out': ['C_out', node_carry],
             'Out': ['out', node_out],
             'In' : ['in', node_in]
@@ -38,6 +36,7 @@ file.write(f'logfile {filename_log}\n')
 file.write('stepsize 50\n')
 file.write(f'h {high} \n')
 file.write(f'l {low} \n')
+file.write(f'l cin0 \n')
 
 #generating vectors
 for vector_name in vectors:
@@ -51,7 +50,7 @@ for vector_name in vectors:
     file.write(f'\n')
 
 #watching vectors
-file.write(f'w in out C_out \n')
+file.write(f'w in out C_out a b op \n')
 
 #setting up analyzer
 file.write('analyzer ')

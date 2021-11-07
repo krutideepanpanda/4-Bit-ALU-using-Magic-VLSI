@@ -1,24 +1,35 @@
 logfile log/test.txt
 stepsize 50
-h vdd 
-l GND 
-vector A A3 A2 A1 A0 
-vector B B3 B2 B1 B0 
-vector op op1 op0 
-vector sum S3 S2 S1 S0 
-vector C_out C3 
-vector and and3 and2 and1 and0 
-vector or or3 or2 or1 or0 
-vector xor xor3 xor2 xor1 xor0 
-vector out out3 out2 out1 out0 
-vector in op1 op0 A3 A2 A1 A0 B3 B2 B1 B0 
-w in out C_out 
-analyzer A B op sum C_out and or xor out in 
-setvector in 1001011010
+h vdd! 
+l vss! 
+l cin0 
+vector A a3 a2 a1 a0 
+vector B b3 b2 b1 b0 
+vector op s1 s0 
+vector C_out cout 
+vector out aluout3 aluout2 aluout1 aluout0 
+vector in s1 s0 a3 a2 a1 a0 b3 b2 b1 b0 
+w in out C_out a b op 
+analyzer A B op C_out out in 
+setvector in 1101111010
 s
-setvector in 1101000000
+setvector in 0111101111
 s
-setvector in 1010001110
+setvector in 0101011010
+s
+setvector in 1000111100
+s
+setvector in 1000101010
+s
+setvector in 1110101101
+s
+setvector in 0001101111
+s
+setvector in 0001101100
+s
+setvector in 0110010001
+s
+setvector in 0111000011
 s
 logfile
 exit
