@@ -25,9 +25,7 @@ def checkOR(opA, opB, aluout):
 correct=0
 testcases=0
 
-filename = input('Enter name of the command file you want to verify : ') + '.txt'
-
-file = open('log/' + filename, "r")
+file = open('log/test.txt', "r")
 lines = file.readlines()
 
 #reading the log file

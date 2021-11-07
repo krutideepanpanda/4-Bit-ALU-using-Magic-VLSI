@@ -1,9 +1,6 @@
 import random
-import os
 
 tests = int(input('Enter how many tests you want to perform : '))
-cmd_path = 'cmd/'
-log_path = 'log/'
 
 high = 'vdd!'
 low = 'vss!'
@@ -24,9 +21,8 @@ vectors = { 'A': ['A', node_opA],
             }
 
 # filename_cmd = cmd_path + 'test.txt'
-temp_name = input('Enter name of the cmd file: ')
-filename_cmd = cmd_path + temp_name + '.cmd'
-filename_log = log_path + temp_name + '.txt'
+filename_cmd = 'cmd/test.cmd'
+filename_log = 'log/test.txt'
 
 file = open(filename_cmd, 'w')
 
@@ -68,5 +64,3 @@ for i in range(tests):
 file.write('logfile\n')
 file.write('exit')
 file.close
-
-os.system(f'irsim scmos100.prm ALU.sim -{filename_cmd}')
