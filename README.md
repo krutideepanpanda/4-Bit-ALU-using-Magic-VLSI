@@ -1,4 +1,4 @@
-# EC302-project
+# 4 Bit ALU using Magic VLSI
 
 This is a simple ALU designed using the pharosc standard library. The ALU supports the following operations :
 
